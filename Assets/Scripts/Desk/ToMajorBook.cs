@@ -19,4 +19,9 @@ public class ToMajorBook : MonoBehaviour
     {
         SceneManager.LoadScene("stage3_1");
     }
+
+    public void to_desk()
+    {
+        SceneManager.LoadScene("Desk");
+    }
 }
