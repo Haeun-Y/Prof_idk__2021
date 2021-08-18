@@ -7,6 +7,6 @@ public class newgame : MonoBehaviour
 {
     public void StartNewGame()
     {
-        SceneManager.LoadScene("Desk");
+        SceneManager.LoadScene("tutorial");
     }
 }
