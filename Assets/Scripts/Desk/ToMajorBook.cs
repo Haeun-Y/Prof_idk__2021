@@ -7,6 +7,16 @@ public class ToMajorBook : MonoBehaviour
 {
     public void to_majorbook()
     {
-        SceneManager.LoadScene("Major book");
+        SceneManager.LoadScene("page");
+    }
+
+    public void to_cybercampus()
+    {
+        SceneManager.LoadScene("cybercampus");
+    }
+
+    public void to_zoom()
+    {
+        SceneManager.LoadScene("stage3_1");
     }
 }
