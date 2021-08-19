@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class memo_off_na : MonoBehaviour
 {
     public GameObject memo;
-    public GameObject opened_memo,btn_unlock;
+    public GameObject opened_memo, img_a;
 
     public void open_memo()
     {
@@ -24,7 +24,7 @@ public class memo_off_na : MonoBehaviour
         {
             opened_memo.gameObject.SetActive(false); //펼쳐졌던 쪽지가 꺼짐
             memo.gameObject.SetActive(false);
-            btn_unlock.gameObject.SetActive(true);
+            img_a.gameObject.SetActive(true);
         }
     }
 }

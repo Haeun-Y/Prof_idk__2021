@@ -24,4 +24,9 @@ public class scene_change_to_stage3 : MonoBehaviour
     {
         SceneManager.LoadScene("stage3-2");
     }
+
+    public void to_stage3_3_cut()
+    {
+        SceneManager.LoadScene("cut_scene_3-2_3-3");
+    }
 }
