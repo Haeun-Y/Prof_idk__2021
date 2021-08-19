@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class json_block_cyber : MonoBehaviour
 {
-    public GameObject block_algoitda, block_vector;
+    public GameObject algoitda, vector, prof, na, mola, exam;
     public void save(Data_block data)
     {
         File.WriteAllText(Application.dataPath + "/Block.json", JsonUtility.ToJson(data));
@@ -44,9 +44,14 @@ public class json_block_cyber : MonoBehaviour
     {
         Data_block data = load();
 
-        block_algoitda.gameObject.SetActive(data.block_algoitda);
+        algoitda.gameObject.SetActive(data.block_algoitda);
 
-        block_vector.gameObject.SetActive(data.block_vector);
+        vector.gameObject.SetActive(data.block_vector);
+
+        na.gameObject.SetActive(data.block_na);
+        mola.gameObject.SetActive(data.block_mola);
+        prof.gameObject.SetActive(data.block_prof2);
+        exam.gameObject.SetActive(data.block_exam);
 
     }
 

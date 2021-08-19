@@ -36,6 +36,7 @@ public class tutorial_desk : MonoBehaviour
         {
             panel.gameObject.SetActive(false);
             tutorial1.gameObject.SetActive(true);
+            
         }
 
     }
