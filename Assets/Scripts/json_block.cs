@@ -9,7 +9,7 @@ public class Data_block
 {
     public bool block_algoitda;
     public bool block_vector;
-    public bool block_prof;
+    public bool block_prof2;
     public bool block_na;
     public bool block_mola;
     public bool block_exam;
@@ -18,6 +18,7 @@ public class Data_block
     {
         Debug.Log("알고있다 : " + block_algoitda);
         Debug.Log("방향 : " + block_vector);
+        Debug.Log("교수님 : " + block_prof2);
 
     }
 }
@@ -63,7 +64,7 @@ public class json_block : MonoBehaviour
 
         inven_block_vector.gameObject.SetActive(data.block_vector);
 
-        inven_block_prof.gameObject.SetActive(data.block_prof);
+        inven_block_prof.gameObject.SetActive(data.block_prof2);
 
         inven_block_na.gameObject.SetActive(data.block_na);
 
@@ -95,12 +96,12 @@ public class json_block : MonoBehaviour
 
     }
 
-    public void click3()
+    public void click_prof()
     {
 
         Data_block data = load();
         data.printData_block();
-        data.block_prof = true;
+        data.block_prof2 = true;
         data.printData_block();
         save(data);
 
