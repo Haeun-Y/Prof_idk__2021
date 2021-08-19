@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -7,15 +7,15 @@ using UnityEngine.UI;
 [System.Serializable]
 public class Data_tutorial
 {
-    public string desk;
-    public string cyber;
-    public string majorbook;
+    public bool desk;
+    public bool cyber;
+    public bool majorbook;
 
 }
 
 public class json_tutorial : MonoBehaviour
 {
-    public Text txt_desk, txt_cyber, txt_majorbook ;
+    public GameObject txt_desk, txt_cyber, txt_majorbook ;
     public void save(Data_tutorial data)
     {
         File.WriteAllText(Application.dataPath + "/Tutorial.json", JsonUtility.ToJson(data));
@@ -51,9 +51,7 @@ public class json_tutorial : MonoBehaviour
     {
         Data_tutorial data = load();
 
-        data.desk = txt_desk.text;
-        data.cyber = txt_cyber.text;
-        data.majorbook = txt_majorbook.text;
+        if(g)
 
         save(data);
 
@@ -61,3 +59,4 @@ public class json_tutorial : MonoBehaviour
 
    
 }
+*/
