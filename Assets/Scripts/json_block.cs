@@ -24,7 +24,7 @@ public class Data_block
 
 public class json_block : MonoBehaviour
 {
-    public GameObject inven_block_algoitda, inven_block_vector;
+    public GameObject inven_block_algoitda, inven_block_vector, inven_block_prof, inven_block_na, inven_block_mola, inven_block_exam;
     public void save(Data_block data)
     {
         File.WriteAllText(Application.dataPath + "/Block.json", JsonUtility.ToJson(data));
@@ -63,6 +63,14 @@ public class json_block : MonoBehaviour
 
         inven_block_vector.gameObject.SetActive(data.block_vector);
 
+        inven_block_prof.gameObject.SetActive(data.block_prof);
+
+        inven_block_na.gameObject.SetActive(data.block_na);
+
+        inven_block_mola.gameObject.SetActive(data.block_mola);
+
+        inven_block_exam.gameObject.SetActive(data.block_exam);
+
     }
 
     public void click()
@@ -87,5 +95,48 @@ public class json_block : MonoBehaviour
 
     }
 
+    public void click3()
+    {
+
+        Data_block data = load();
+        data.printData_block();
+        data.block_prof = true;
+        data.printData_block();
+        save(data);
+
+    }
+
+    public void click4()
+    {
+
+        Data_block data = load();
+        data.printData_block();
+        data.block_na = true;
+        data.printData_block();
+        save(data);
+
+    }
+
+    public void click5()
+    {
+
+        Data_block data = load();
+        data.printData_block();
+        data.block_mola = true;
+        data.printData_block();
+        save(data);
+
+    }
+
+    public void click6()
+    {
+
+        Data_block data = load();
+        data.printData_block();
+        data.block_exam = true;
+        data.printData_block();
+        save(data);
+
+    }
 
 }

@@ -4574,6 +4574,7 @@ GameObject:
   - component: {fileID: 273837921}
   - component: {fileID: 273837920}
   - component: {fileID: 273837919}
+  - component: {fileID: 273837922}
   m_Layer: 0
   m_Name: "btn_\uD655\uC778"
   m_TagString: Untagged
@@ -4655,6 +4656,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 273837922}
+        m_MethodName: click3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &273837920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4692,6 +4704,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273837917}
   m_CullTransparentMesh: 0
+--- !u!114 &273837922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273837917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acccbbef5aa668447a49c21ad786bb28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inven_block_algoitda: {fileID: 369498959}
+  inven_block_vector: {fileID: 1090206819}
+  inven_block_prof: {fileID: 1789826752}
+  inven_block_na: {fileID: 1613934686}
+  inven_block_mola: {fileID: 2062255768}
+  inven_block_exam: {fileID: 792785109}
 --- !u!1 &277700740
 GameObject:
   m_ObjectHideFlags: 0
@@ -8167,6 +8197,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inven_block_algoitda: {fileID: 369498959}
   inven_block_vector: {fileID: 1090206819}
+  inven_block_prof: {fileID: 1789826752}
+  inven_block_na: {fileID: 1613934686}
+  inven_block_mola: {fileID: 2062255768}
+  inven_block_exam: {fileID: 792785109}
 --- !u!1 &547415888
 GameObject:
   m_ObjectHideFlags: 0
@@ -14076,10 +14110,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c8091abc81244849a16cd232fc78c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  notion: {fileID: 0}
+  notion: {fileID: 2083072338}
   answer: {fileID: 852315739}
-  refresh: {fileID: 0}
-  img_f5: {fileID: 0}
+  refresh: {fileID: 943162111}
+  img_f5: {fileID: 193396099}
 --- !u!114 &852315739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17575,6 +17609,7 @@ GameObject:
   - component: {fileID: 1026292885}
   - component: {fileID: 1026292884}
   - component: {fileID: 1026292883}
+  - component: {fileID: 1026292887}
   m_Layer: 5
   m_Name: btn_x
   m_TagString: Untagged
@@ -17614,7 +17649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60753ca0ded66934fab9ef7fc576881b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lock_direction: {fileID: 0}
+  lock_direction: {fileID: 1026292884}
   unlock_arrow: {fileID: 665861920}
 --- !u!114 &1026292884
 MonoBehaviour:
@@ -17670,6 +17705,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1026292887}
+        m_MethodName: click6
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1026292885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17707,6 +17753,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026292881}
   m_CullTransparentMesh: 0
+--- !u!114 &1026292887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026292881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acccbbef5aa668447a49c21ad786bb28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inven_block_algoitda: {fileID: 369498959}
+  inven_block_vector: {fileID: 1090206819}
+  inven_block_prof: {fileID: 1789826752}
+  inven_block_na: {fileID: 1613934686}
+  inven_block_mola: {fileID: 2062255768}
+  inven_block_exam: {fileID: 792785109}
 --- !u!1 &1064053763
 GameObject:
   m_ObjectHideFlags: 0
@@ -26635,6 +26699,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inven_block_algoitda: {fileID: 369498959}
   inven_block_vector: {fileID: 1090206819}
+  inven_block_prof: {fileID: 1789826752}
+  inven_block_na: {fileID: 1613934686}
+  inven_block_mola: {fileID: 2062255768}
+  inven_block_exam: {fileID: 792785109}
 --- !u!1 &1639052993
 GameObject:
   m_ObjectHideFlags: 0
@@ -31354,6 +31422,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inven_block_algoitda: {fileID: 369498959}
   inven_block_vector: {fileID: 1090206819}
+  inven_block_prof: {fileID: 1789826752}
+  inven_block_na: {fileID: 1613934686}
+  inven_block_mola: {fileID: 2062255768}
+  inven_block_exam: {fileID: 792785109}
 --- !u!1 &1956576630
 GameObject:
   m_ObjectHideFlags: 0
