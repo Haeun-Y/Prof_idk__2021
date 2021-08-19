@@ -22,6 +22,6 @@ public class ToMajorBook : MonoBehaviour
 
     public void to_desk()
     {
-        SceneManager.LoadScene("Desk");
+        SceneManager.LoadScene("cut_scene1");
     }
 }
