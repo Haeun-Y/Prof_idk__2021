@@ -99,11 +99,4 @@ public class enternum : MonoBehaviour
         answer.text = input;
     }
 
-    void Update() //알림창사라지게 하기
-    {
-        if (notion.gameObject.activeSelf == true & Input.GetMouseButtonDown(0))
-        {
-            notion.gameObject.SetActive(false); //펼쳐졌던 쪽지가 꺼짐
-        }
-    }
 }
